@@ -106,7 +106,7 @@ hr {
     display: block;
 }
 
-.save_spot{
+.save_spot {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -117,26 +117,11 @@ hr {
     background: #b80050;
     color: #fff5f5;
     border: none;
-   
 }
 
-.save_spot2{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 16rem;
-    height: 4rem;
-    margin-bottom: 5rem;
-    font-size: 1.5rem;
-    background: #b80050;
-    color: #fff5f5;
-    border: none;
-   
-}
 
-.save {
-    margin-left: -10rem;
-}
+
+
 
 .must_read {
     background-color: #fce4db;
@@ -189,8 +174,79 @@ hr {
   margin: 1.5rem;
 }
 
+.grid_2 {
+    display: grid;
+    grid-template-columns: 390px 350px;
+    grid-template-areas: 
+        "makeover grandoll"
+        "makeover backpacks";
+
+}
+
+#makeover {
+    grid-area: makeover;
+}
+
+#grandoll {
+    grid-area: grandoll;
+}
+
+#backpacks {
+    grid-area: backpacks;
+}
 
 
+.sentence_1 {
+    font-size: 1.4rem;
+    padding-left: 1.2rem;
+    padding-top: 1.5rem;
+}
+
+.save_spot2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16rem;
+    height: 4rem;
+    margin-bottom: 2.2rem;
+    font-size: 1.5rem;
+    background: #b80050;
+    color: #fff5f5;
+    border: none;
+}
+
+.border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid #b80050;
+    border-right: 2px solid #b80050;
+    border-bottom: 2px solid #b80050;
+}
+
+.grid_3 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    /*grid-template-areas: ;*/
+}
+
+
+.fa-house {
+    grid-area: house;
+    color: #b80050;
+}
+.fa-calendar-days {
+    grid-area: days;
+    color: #b80050;
+
+}
+
+.fa-mobile {
+    grid-area: mobile;
+    color: #b80050;
+}
+
+/*Grid areas for p tags next*/
 
 
 
