@@ -272,6 +272,7 @@ hr {
 
 .virtual {
     grid-area: virtual;
+    
 }
 
 .online {
@@ -279,10 +280,24 @@ hr {
 }
 
 .p_grid p {
-    text-align: center;
     position: relative;
-    right: 110px;
-    bottom: -50px;
+    right: 100px;
+    top: 60px;
+    width: 30px;
+}
+
+.shop_store {
+    text-align: center;
+    
+}
+
+.virtual p {
+    grid-area: virtual;
+    
+}
+
+.online p {
+    grid-area: online;
 }
 
 
