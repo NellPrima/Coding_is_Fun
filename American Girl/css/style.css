@@ -234,20 +234,56 @@ hr {
 .fa-house {
     grid-area: house;
     color: #b80050;
+    font-size: 3rem;
 }
 .fa-calendar-days {
     grid-area: days;
     color: #b80050;
+    font-size: 3rem;
 
 }
 
 .fa-mobile {
     grid-area: mobile;
     color: #b80050;
+    font-size: 3rem;
 }
 
-/*Grid areas for p tags next*/
+/*flexbox for icons*/
 
+.icons {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.p_grid {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-areas: "shop virtual online";
+    gap:43px;
+
+}
+
+.shop_store {
+    grid-area: shop;
+}
+
+.virtual {
+    grid-area: virtual;
+}
+
+.online {
+    grid-area: online;
+}
+
+.p_grid p {
+    text-align: center;
+    position: relative;
+    right: 110px;
+    bottom: -50px;
+}
 
 
 
