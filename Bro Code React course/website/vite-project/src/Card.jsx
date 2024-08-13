@@ -2,7 +2,7 @@
 function Card(){
     return(
         <div className="card">
-            <img src="" alt="a picture of me" />
+            <img src=""  />
        
       
             <p>Frontend Developer who collects dolls</p>
