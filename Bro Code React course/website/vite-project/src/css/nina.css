@@ -1,0 +1,33 @@
+.card2 {
+    border: 10px solid #00ff11;
+    border-radius: 10px;
+    box-shadow:  5px 5px 5px #80008069;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+  
+
+}
+
+
+ .card2 .card-imgs {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 1000px;
+    display: inline-block;
+    border: 10px solid red;
+}
+
+.card .card-titles{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: blue;
+
+}
+
+.card .card-texts {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+
+}
