@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    font-size: 2rem;
+}
+
+button {
+    background-color: lightgray;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.blue {
+    background-color: #3498bd;
+}
+
+button.green {
+    background-color: #2ecc71;
+}
+
+button.purple {
+    background-color: #a973c2;
+}
