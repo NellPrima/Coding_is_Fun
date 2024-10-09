@@ -34,3 +34,11 @@ button.green {
 button.purple {
     background-color: #a973c2;
 }
+
+#something {
+    display: none;
+}
+
+#nothing {
+    cursor: pointer;
+}
