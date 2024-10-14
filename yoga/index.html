@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            h1 {
+                text-align: center;
+                color: orange;
+            }
+            h2 {
+                text-align: center;
+                color: blueviolet;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+    <h1>yoga</h1>
+    <h2>discipline</h2>
+    <p>Yoga is an ancient practice that combines physical postures, breathing techniques, and meditation to improve health and well-being</p>
+    <img src="https://www.yogabasics.com/yogabasics2017/wp-content/uploads/2022/07/What-is-Yoga.jpg" alt="">
+    <button> Go to a Yoga class</button>
+    <footer>Coded by nell</footer>
+
+    <script>
+        function subscribe() {
+            propmt("What is your name?");
+            promt("Wat is you email?");
+            
+            alert('Thanks, ${name}!We will be in touch')
+        }
+
+
+        let button = document.querySelector("button");
+        button.addEventListener("click", subscribe);
+    </script>
+        
+    </body>
+</html>
