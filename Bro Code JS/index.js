@@ -1,8 +1,10 @@
-let age = 25;
-let price = 10.99;
-let gpa = 2.1;
-let gpaT = 4.5;
+const PI = 3.14159;
+let radius;
+let circumference;
 
-console.log(`you are ${age} years old `);
-console.log(`The price is $${price} `)
-console.log(`my gpa is ${gpa} and yours is ${gpaT}`);
+radius = window.prompt('Enter the radius of a circle');
+radius = Number(radius);
+
+circumference = 2 * pi * radius;
+
+console.log(circumference);
