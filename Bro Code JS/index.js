@@ -1,21 +1,7 @@
-function add(x, y){
-    result = x + y;
-    return result;
-}
+let x = 10;
+let y = 2;
 
-let answer = add(2, 3);
-console.log(answer + 6);
+let answer = (-(x - y));
 
-function isEven(number){
-    if(number % 2 === 0){
-        return true;
-    }
-    else {
-        return false;
-    }
-
-}
-
-
-
-console.log(isEven(10));
+console.log(answer);
+console.log(typeof answer);
