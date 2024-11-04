@@ -1,55 +1,73 @@
-
-let size = 8;
-let board = "";
-
-for (let y = 0; y < size; y++) {
-    for (let x = 0; x < size; x++) {
-        if ((x + y) % 2 == 0) {
-            board += " ";
-        } else {
-            board += "#";
-        }
-    }
-    board += "\n"
-}
-console.log(board);
+// for (let line = "#"; line.length < 8; line + 1 "#")
+//     console.log(line);
 
 
-
-
-
-
-
-
-
-
-
-
-// let num = 0;
-// while (num <= 99) {
-//     num = num +1;
-//   if (num % 3 === 0 && num % 5 === 0) {
-//     console.log( "FizzBuzz");
-//   } else if (num % 5 === 0) {
-//     console.log("Buzz");
-//   } else if (num % 3 === 0) {
-//     console.log( "Fizz");
-//   }
-//   else {
-//     console.log(num);
-//   }
-// }
-
-
-    
- 
-
-// let x = 3;
-// let y = 3;
-
-// if (x && y === 3) {
-//     console.log("They are both equal to 3.");
-// }
-// else {
-//     console.log("butts");
+// for (let line = "#" ;line.length < 8; line += "#") {
+//     console.log(line);
 // };
+
+// let result = 1;
+// for (let counter = 0; counter < 10; counter = counter + 1) {
+//     result = result * 4;
+// }
+// console.log(result);
+
+// let x = 12;
+// let y = 2;
+// console.log(x + y);
+
+// let size = 8;
+// let board = "";
+// for (let y = 0; y < size; y++) {
+//     for (let x = 0; x < size; x++) {
+//         if ((x + y) % 2 == 0) {
+//             board += " ";
+//         } else {
+//             board += "#";
+//         }
+//     }
+//     board += "\n";
+// }
+
+// console.log(board);
+
+// let size = 3;
+// let board = "*";
+// for (let y =  ; y < size; y++) {
+//     for (let x = 0 ; x < size; x++) {
+//         if ((x + y) % 2 == 0) {
+//             board += " &";
+//         } else {
+//             board += "*";
+//         }
+//     }
+//     board += "\n";
+// }
+
+// console.log(board);
+
+// const makeNoise = function() {
+//     console.log()
+// }
+
+// makeNoise();
+
+// function addNumbers(x, y) {
+//     return x + y;
+// }
+
+
+
+// console.log(addNumbers(5, 5));
+
+const hummus = function(factor) {
+    const ingredient = function(amount, unit, name) {
+        let ingredientAmount = amount * factor;
+        if (ingredientAmount > 1 ) {
+            unit += "s";
+        }
+        console.log('${ingredientAmount} ${unit} ${name}')
+
+    };
+    //list of ingredients go here 
+}
