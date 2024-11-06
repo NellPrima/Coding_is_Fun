@@ -66,8 +66,15 @@ const hummus = function(factor) {
         if (ingredientAmount > 1 ) {
             unit += "s";
         }
-        console.log('${ingredientAmount} ${unit} ${name}')
+        console.log(`${ingredientAmount} ${unit} ${name}`)
 
     };
-    //list of ingredients go here 
-}
+     ingredient(1, "can" , "chickpeas");
+     ingredient(0.25, "cup" , "tahini");
+     ingredient(0.25, "cup" , "lemon juice");
+     ingredient(1, "clove" , "garlic");
+     ingredient(2, "tablespoon" , "olive oil");
+     ingredient(0.5, "teaspoon" , "cumin");
+};
+
+console.log(hummus(), ingredient());
